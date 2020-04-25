@@ -31,7 +31,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 0 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -121,7 +121,7 @@ a:hover {
 
 .d-bloc .a-btn,
 .d-bloc .navbar a,
-.d-bloc .navbar-brand,
+.d-bloc,
 .d-bloc a .icon-sm,
 .d-bloc a .icon-md,
 .d-bloc a .icon-lg,
@@ -138,7 +138,7 @@ a:hover {
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
-.d-bloc .navbar-brand:hover,
+.d-bloc:hover,
 .d-bloc a:hover .icon-sm,
 .d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
@@ -219,7 +219,7 @@ a:hover {
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
 .l-bloc .navbar a,
-.l-bloc .navbar-brand,
+.l-bloc,
 .l-bloc a .icon-sm,
 .l-bloc a .icon-md,
 .l-bloc a .icon-lg,
@@ -237,7 +237,7 @@ a:hover {
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
 .l-bloc .navbar a:hover,
-.l-bloc .navbar-brand:hover,
+.l-bloc:hover,
 .l-bloc a:hover .icon-sm,
 .l-bloc a:hover .icon-md,
 .l-bloc a:hover .icon-lg,
@@ -292,25 +292,6 @@ a:hover {
     z-index: 1;
 }
 
-.navbar-brand {
-    height: auto;
-    padding: 3px 15px;
-    font-size: 25px;
-    font-weight: normal;
-    font-weight: 600;
-    line-height: 44px;
-}
-
-.navbar-brand img {
-    max-height: 200px;
-    margin: 0 5px 0 0;
-    display: inline;
-}
-
-.navbar-brand img[src$=svg] {
-    min-width: 100px;
-}
-
 .nav-center .navbar-brand img {
     margin: 0;
 }
@@ -356,7 +337,7 @@ a:hover {
 }
 
 .nav-invert .navbar-header,
-.nav-invert .navbar-brand {
+.nav-invert {
     float: right;
     position: relative;
     z-index: 2;
@@ -385,7 +366,7 @@ a:hover {
         width: 100%;
     }
     .nav-center .navbar-header,
-    .nav-center .navbar-brand,
+    .nav-center,
     .nav-center .nav > li {
         float: none;
         display: inline-block;
@@ -822,7 +803,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -961,11 +942,7 @@ h4 {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
-    .navbar-brand img {
-        max-height: 40px;
-        width: auto;
-    }
-    .nav-invert .navbar-header {
+     .nav-invert .navbar-header {
         float: none;
         width: 100%;
     }
