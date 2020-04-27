@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(255, 255, 255, .6);
 }
 
 .d-bloc .a-btn:hover,
@@ -521,14 +521,14 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
     font-weight: 100;
     z-index: 1;
     position: absolute;
-    top: 50%;
+    top: 55%;
+    left: 45%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
@@ -556,13 +556,14 @@ a[data-lightbox]:hover img {
 }
 
 .lightbox-caption {
-    padding: 20px;
+    text-align: center;
     color: #FFF;
     background: rgba(0, 0, 0, .5);
     position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: 5px;
+    left:2px;
+    right: 2px;
+    bottom: 2px;
+    margin: 0;
 }
 
 .close-lightbox {
@@ -719,7 +720,6 @@ h4 {
 
 .portfolio-row {
     margin-bottom: 44px;
-    margin-top: 50px;
 }
 
 .avatar {

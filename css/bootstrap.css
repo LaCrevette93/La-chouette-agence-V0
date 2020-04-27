@@ -7156,6 +7156,8 @@ button.close {
 
 .modal-body {
     position: relative;
+    display: flex;
+    align-items: center;
     padding: 15px
 }
 
